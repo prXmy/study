@@ -1,0 +1,31 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Capacitor" CircId="Capacitor-4" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-84,-100" rotation="90" hflip="1" vflip="1" label="Capacitor-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="1000 µF" Resistance="1e-06 Ω" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Oscope" CircId="Oscope-6" mainComp="false" Show_id="false" Show_Val="false" Pos="148,-140" rotation="0" hflip="1" vflip="1" label="Oscope-6" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1298529665" TimPos="46054889,46054889,46054889,46054889," VolDiv="0.774504,0.774504,0.774504,0.774504," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="-0.00774504,-0.00774504,-0.00774504,-0.00774504," />
+
+<item itemtype="WaveGen" CircId="WaveGen-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-156" rotation="0" hflip="1" vflip="1" label="WaveGen-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Square" Freq="100 Hz" Phase="0 _º" Steps="20 _Steps" Duty="20 _%" Always_On="true" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
+<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,12" rotation="0" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-180,-156" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1000 Ω" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-276,-156" />
+
+<item itemtype="Node" CircId="Node-10" mainComp="false" Pos="-84,-156" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="WaveGen-2-outnod" endpinid="Node-11-0" pointList="-344,-156,-276,-156" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Resistor-3-rPin" endpinid="Node-10-0" pointList="-164,-156,-84,-156" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Node-11-2" endpinid="Resistor-3-lPin" pointList="-276,-156,-196,-156" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Capacitor-4-rPin" endpinid="Ground-5-Gnd" pointList="-84,-84,-84,-4" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Node-10-2" endpinid="Oscope-6-Pin1" pointList="-84,-156,60,-156" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Node-10-1" endpinid="Capacitor-4-lPin" pointList="-84,-156,-84,-116" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Oscope-6-Pin0" endpinid="Node-11-1" pointList="60,-188,-276,-188,-276,-156" />
+
+</circuit>

@@ -2,38 +2,32 @@
 
 <item itemtype="Clock" CircId="Clock-18" mainComp="false" Show_id="false" Show_Val="false" Pos="0,100" rotation="0" hflip="1" vflip="1" label="Clock-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="10 kHz" Always_On="false" />
 
-<item itemtype="Oscope" CircId="Oscope-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-232" rotation="0" hflip="1" vflip="1" label="Oscope-26" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-32" mainComp="false" Show_id="false" Show_Val="false" Pos="8,-268" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-32" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="3 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-156" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-32" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="3 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-30" mainComp="false" Show_id="false" Show_Val="false" Pos="12,-300" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-30" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="-5 V" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-336" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-30" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="-5 V" Out="true" />
+<item itemtype="Oscope" CircId="Oscope-9" mainComp="false" Show_id="false" Show_Val="false" Pos="124,-36" rotation="0" hflip="1" vflip="1" label="Oscope-9" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="200000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,-0.02,-0.02,-0.02," />
 
-<item itemtype="Oscope" CircId="Oscope-10" mainComp="false" Show_id="false" Show_Val="false" Pos="128,148" rotation="0" hflip="1" vflip="1" label="Oscope-10" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="42294450" TimPos="0,0,0,0," VolDiv="0.5,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="-2.5,0,0,0," />
+<item itemtype="Oscope" CircId="Oscope-10" mainComp="false" Show_id="false" Show_Val="false" Pos="128,148" rotation="0" hflip="1" vflip="1" label="Oscope-10" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="35956168" TimPos="0,0,0,0," VolDiv="0.5,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="-2.5,0,0,0," />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-33" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,40" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-33" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="-3 V" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-332" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-29" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Oscope" CircId="Oscope-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,-44" rotation="0" hflip="1" vflip="1" label="Oscope-35" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-33" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-228" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-33" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="-3 V" Out="true" />
 
 <item itemtype="WaveGen" CircId="WaveGen-17" mainComp="false" Show_id="false" Show_Val="false" Pos="0,-84" rotation="0" hflip="1" vflip="1" label="WaveGen-17" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="1 kHz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="5 V" Mid_Volt="0 V" />
 
 <item itemtype="Oscope" CircId="Oscope-34" mainComp="false" Show_id="false" Show_Val="false" Pos="156,-280" rotation="0" hflip="1" vflip="1" label="Oscope-34" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
 
-<item itemtype="Oscope" CircId="Oscope-9" mainComp="false" Show_id="false" Show_Val="false" Pos="124,-36" rotation="0" hflip="1" vflip="1" label="Oscope-9" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+<item itemtype="Connector" uid="Connector-34" startpinid="Fixed Voltage-29-outnod" endpinid="Oscope-34-Pin0" pointList="32,-332,68,-332,68,-328" />
 
-<item itemtype="Oscope" CircId="Oscope-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,136" rotation="0" hflip="1" vflip="1" label="Oscope-28" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="600000 Образцы" InputAdmit="0.1 µ℧" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
-
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-332" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-29" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+<item itemtype="Connector" uid="Connector-38" startpinid="Fixed Voltage-33-outnod" endpinid="Oscope-34-Pin3" pointList="20,-228,68,-228,68,-232" />
 
 <item itemtype="Connector" uid="Connector-10" startpinid="WaveGen-17-outnod" endpinid="Oscope-9-Pin0" pointList="16,-84,36,-84" />
 
-<item itemtype="Connector" uid="Connector-34" startpinid="Fixed Voltage-29-outnod" endpinid="Oscope-34-Pin0" pointList="32,-332,68,-332,68,-328" />
-
-<item itemtype="Connector" uid="Connector-31" startpinid="Fixed Voltage-30-outnod" endpinid="Oscope-26-Pin0" pointList="-240,-336,-240,-280,-236,-280" />
-
-<item itemtype="Connector" uid="Connector-35" startpinid="Fixed Voltage-32-outnod" endpinid="Oscope-35-Pin0" pointList="-252,-156,-252,-92,-260,-92" />
+<item itemtype="Connector" uid="Connector-37" startpinid="Fixed Voltage-32-outnod" endpinid="Oscope-34-Pin2" pointList="24,-268,24,-264,68,-264" />
 
 <item itemtype="Connector" uid="Connector-9" startpinid="Clock-18-outnod" endpinid="Oscope-10-Pin0" pointList="16,100,40,100" />
 
-<item itemtype="Connector" uid="Connector-33" startpinid="Fixed Voltage-33-outnod" endpinid="Oscope-28-Pin0" pointList="-276,40,-276,88,-264,88" />
+<item itemtype="Connector" uid="Connector-36" startpinid="Fixed Voltage-30-outnod" endpinid="Oscope-34-Pin1" pointList="28,-300,68,-300,68,-296" />
 
 </circuit>
