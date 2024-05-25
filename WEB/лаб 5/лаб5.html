@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+        .p3{
+            color: #FF0000;
+        }
+        .p2{
+           background-color: orange;
+        }
+        .p1{
+            color: green;
+        }
+    </style>
+  </head>
+  <body>
+    <p>Текст</p>
+    <script>
+        let a1, a2, a3, a4;
+        document.write('<p>Текст 2</p>');
+        a1 = '<p class="p3">Текст 3</p>';
+        document.write(a1);
+        //a2 = prompt('Число 1','0');
+        //a3 = prompt('Число 2','0');
+        a4 = parseInt(a2) - parseInt(a3);
+        document.write('<p>'+a4+'</p>');
+        a1 = 0;
+        document.write('<table border = "1">');
+        for (a1 = 1; a1 <= 9 ;a1+=1){
+            if(a1<5){
+                document.write('<tr >');
+            }
+            else{
+            document.write('<tr>');
+            }
+            for (a2 = 2; a2 <= 18; a2+=2){
+                if(a2 <10){
+                    document.write('<td class = "p2">');
+                }
+                else{
+                document.write('<td >');
+                }
+                if (a1%2==1){
+                    document.write('<p class="p1">');
+                    document.write((a1-1)*18 +a2);
+                    document.write('</p>');
+                document.write('</td>');
+                }
+                else{
+                document.write('<p >');
+                document.write((a1-1)*18 +a2);
+                document.write('</p>');
+                document.write('</td>');
+                }
+                
+            }
+            document.write('</tr>');
+        }
+        document.write('</table>');
+
+    </script>
+
+  </body>
+
+
+</html>
