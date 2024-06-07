@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <style>
+        .p3{
+            color: #FF0000;
+        }
+        .p2{
+           background-color: orange;
+        }
+        .p1{
+            color: green;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="zakaz1.html" method="get" onsubmit="return proverka1();">
+        <input type="text" name="t1" id="id1" value="5"><br> 
+        <input type="text" name="t2" id="id2" value="5"> <br> 
+        <input type="text" name="t3" id="id3" value="5"> <br> 
+        <input type="text" name="t4" id="id4" value="5"> <br> 
+        <input type="text" name="t5" id="id5" value="ФИО"> <br> 
+        <input type="text" name="t6" id="id6" value=""> <br> 
+        <input type="checkbox" checked id="ch1"> 
+        <label for="ch1">Авиа</label>
+        <fieldset>
+            <legend>Тип доставки</legend>
+            <input type="radio" checked id="r1" name="dostavka" value="normal">
+                <label for="r1">Обычная</label>
+            <input type="radio" id="r2" name="dostavka" value="express">
+                <label for="r2">Ускоренная</label>
+        </fieldset>
+    <br>
+    <input type="submit" value="Сделать заказ">
+    
+    </form>
+
+    <script>
+      function proverka1(){
+        a = 70
+        if (parseInt(document.getElementById('id1').value)*parseInt(document.getElementById('id2').value) >=100){
+        document.getElementById('id6').value=parseInt(document.getElementById('id1').value)*parseInt(document.getElementById('id2').value)*parseInt(document.getElementById('id3').value)*parseInt(document.getElementById('id4').value)*a+77;
+        }
+        else{
+          document.getElementById('id6').value=parseInt(document.getElementById('id1').value)*parseInt(document.getElementById('id2').value)*parseInt(document.getElementById('id3').value)*parseInt(document.getElementById('id4').value)*a;
+        }
+        if (document.getElementById('id5').value==""){
+          alert('Заполните ФИО');
+          return false;
+        }
+        else{
+          return false;
+        }
+      
+      }
+
+
+
+
+
+    </script>
+
+
+
+  </body>
+
+
+</html>
